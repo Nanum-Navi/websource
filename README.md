@@ -57,6 +57,45 @@ All config is optional. Copy `.env.example` to `.env` to override defaults:
 | `WEBSOURCE_CONFIG_DIR` | `~/.config/websource` | Config file location |
 | `LOG_LEVEL` | `warn` | `trace` / `debug` / `info` / `warn` / `error` |
 
+## Data storage
+
+All extracted data is stored locally in a single SQLite database:
+
+```
+~/.local/share/websource/
+├── websource.db   ← all data
+└── logs/          ← log files (production mode only)
+```
+
+| Table | Contents |
+|---|---|
+| `sources` | Source list (name, URL, status) |
+| `extraction_configs` | Field selectors, fetchMode, and other settings |
+| `runs` | Extraction run history (time, record counts, status) |
+| `snapshots` | The actual extracted records |
+| `diffs` | Added / changed / removed records between runs |
+| `schedules` | Cron schedule settings |
+
+**Export extracted data:**
+
+```bash
+# JSON
+npx tsx bin/websource.ts export <sourceId> --format json
+
+# CSV
+npx tsx bin/websource.ts export <sourceId> --format csv
+
+# REST API
+npx tsx bin/websource.ts serve
+# GET http://localhost:3847/sources/:id/data
+```
+
+**Change the storage location** — add to `.env`:
+
+```
+WEBSOURCE_DATA_DIR=/your/custom/path
+```
+
 ## Architecture
 
 - **Node.js + TypeScript** (ESM, strict)
