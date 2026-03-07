@@ -31,34 +31,36 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsx bin/websource.ts",
+    "mcp": "tsx bin/mcp-server.ts",
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "eslint src/"
   },
   "dependencies": {
-    "commander": "^12.1.0",
     "@inquirer/prompts": "^7.2.0",
-    "cheerio": "^1.0.0",
-    "playwright": "^1.49.0",
+    "@modelcontextprotocol/sdk": "^1.27.1",
     "better-sqlite3": "^11.7.0",
-    "zod": "^3.24.0",
+    "chalk": "^5.4.1",
+    "cheerio": "^1.0.0",
+    "cli-table3": "^0.6.5",
+    "commander": "^12.1.0",
+    "csv-stringify": "^6.5.2",
     "fastify": "^5.2.0",
+    "nanoid": "^5.0.9",
     "node-cron": "^3.0.3",
     "pino": "^9.6.0",
     "pino-pretty": "^13.0.0",
-    "nanoid": "^5.0.9",
-    "cli-table3": "^0.6.5",
-    "chalk": "^5.4.1",
+    "playwright": "^1.49.0",
+    "undici": "^7.2.0",
     "yaml": "^2.7.0",
-    "csv-stringify": "^6.5.2",
-    "undici": "^7.2.0"
+    "zod": "^3.24.0"
   },
   "devDependencies": {
-    "typescript": "^5.7.0",
-    "tsx": "^4.19.0",
-    "vitest": "^2.1.0",
     "@types/better-sqlite3": "^7.6.12",
     "@types/node": "^22.10.0",
-    "@types/node-cron": "^3.0.11"
+    "@types/node-cron": "^3.0.11",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0"
   }
 }

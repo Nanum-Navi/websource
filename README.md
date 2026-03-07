@@ -37,15 +37,46 @@ npx tsx bin/websource.ts init https://books.toscrape.com
 | `export <id>` | Export to JSON/CSV |
 | `doctor` | Run health checks |
 
-## Claude Code skill (optional)
+## Claude Code integration (optional)
 
-If you use [Claude Code](https://github.com/anthropics/claude-code), you can
-run the interactive wizard from any chat session with `/websource` or natural
-language like "scrape this URL".
+If you use [Claude Code](https://github.com/anthropics/claude-code), websource
+exposes a full **MCP server** so Claude can call extraction tools directly —
+no bash commands needed.
+
+### MCP server (project-level — automatic)
+
+When you open this project in Claude Code, it automatically picks up `.mcp.json`
+and connects to the websource MCP server. No extra setup required.
+
+### MCP server (user-level — any directory)
+
+Register once to use the `/websource` wizard from any directory:
+
+```bash
+claude mcp add websource -s user -- npx tsx /absolute/path/to/websource/bin/mcp-server.ts
+```
+
+### Claude Code skill (interactive wizard)
+
+Install the `/websource` slash command skill:
 
 ```bash
 bash scripts/install-skill.sh
 ```
+
+Then use `/websource` or paste a URL in any Claude Code chat to launch the
+guided wizard: category discovery → field selection → schedule → source creation.
+
+### Available MCP tools
+
+| Tool | Description |
+|---|---|
+| `websource_discover_sections` | Detect category/tab structure on a page |
+| `websource_analyze_page` | Detect fields, blocks, and pagination |
+| `websource_create_source` | Create and persist a data source |
+| `websource_preview_extraction` | Dry-run extraction (no DB write) |
+| `websource_run_extraction` | Run extraction and save results |
+| `websource_list_sources` | List all saved sources |
 
 ## Configuration
 
