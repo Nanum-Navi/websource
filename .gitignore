@@ -8,3 +8,6 @@ data/
 logs/
 *.lock
 !package-lock.json
+
+.idea/
+.claude/*local*
