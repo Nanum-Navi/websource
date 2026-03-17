@@ -133,7 +133,7 @@ cd "$PROJECT_DIR" && npx tsx scripts/analyze-page.ts <URL> --mode rendered
 **필수 필드 매핑 실패 시:**
 - `crawl_rules.json`의 `fields.required`에 있는 필드가 매핑되지 않으면 경고
 - 사용자에게 수동으로 셀렉터를 지정하도록 요청
-- lat/lng가 없는 경우: 사이트에서 좌표를 제공하지 않을 수 있음을 안내하고, 주소 기반 지오코딩이 필요할 수 있음을 알림
+- lat/lng가 없는 경우: 지오코딩 스크립트로 주소→좌표 변환을 자동 수행한다 (Step 3.5 참조)
 
 ---
 
@@ -166,6 +166,52 @@ cd "$PROJECT_DIR" && npx tsx scripts/run-extraction.ts <id>
 
 **에러 임계값:**
 전체 레코드 중 5% 이상 오류(필수 필드 누락, 좌표 범위 이탈) 발생 시 추출을 중단하고 사용자에게 상황을 알린다.
+
+---
+
+### Step 3.5 — 지오코딩 (좌표 없는 경우)
+
+사이트에서 lat/lng를 제공하지 않거나, 추출된 좌표가 비어있는 매장이 있으면 이 단계를 실행한다.
+사이트에서 좌표를 모두 제공하는 경우 이 단계를 건너뛴다.
+
+**지오코딩 스크립트:**
+```bash
+# 단건
+cd "$PROJECT_DIR" && npx tsx scripts/geocode.ts "서울특별시 강남구 역삼로 123"
+
+# 배치 (stdin으로 JSON 배열 전달)
+echo '["주소1","주소2","주소3"]' | cd "$PROJECT_DIR" && npx tsx scripts/geocode.ts --stdin
+```
+
+출력 형식:
+```json
+{
+  "ok": true,
+  "results": [
+    { "address": "서울특별시 강남구 역삼로 123", "lat": "37.4941840", "lng": "127.0330224" },
+    { "address": "잘못된 주소", "lat": null, "lng": null }
+  ]
+}
+```
+
+**사용 방식:**
+
+추출된 매장 데이터에서 좌표가 없는 매장의 주소 목록을 JSON 배열로 만들어 `--stdin`으로 전달한다.
+한 번에 최대 100건씩 배치로 호출하고 결과를 매장 데이터에 병합한다.
+
+```bash
+# 예: 좌표 없는 주소들을 배치 지오코딩
+echo '["서울 마포구 어울마당로 133","경기도 파주시 와석순환로 380"]' | \
+  cd "$PROJECT_DIR" && npx tsx scripts/geocode.ts --stdin --rate-limit 150
+```
+
+**환경변수 필요:**
+`.env` 파일에 네이버 클라우드 API 키가 설정되어 있어야 한다. `.env.example` 참조.
+
+**지오코딩 실패 처리:**
+- `lat: null` 또는 `lng: null`인 경우 → 원본 주소 오타/불완전 가능성
+- 실패 매장은 별도 `_failed.json` 파일에 저장
+- 전체 실패율이 5% 이상이면 사용자에게 알림
 
 ---
 
@@ -302,7 +348,7 @@ Git으로 이전 버전을 추적할 수 있다.
 | `fieldQuality: none/poor` | URL 자동 추론 후 재시도, 2회 실패 시 사용자에게 URL 요청 |
 | `robotsAllowed: false` | 경고 후 사용자 확인 |
 | 필수 필드 매핑 실패 | 수동 매핑 요청 |
-| 좌표 없는 사이트 | 지오코딩 필요 안내 |
+| 좌표 없는 사이트 | Step 3.5 지오코딩 자동 실행 (`scripts/geocode.ts --stdin`) |
 | 5% 이상 오류 | 추출 중단, 사용자에게 알림 |
 | 추출 건수 0 | URL 재확인 요청 |
 
