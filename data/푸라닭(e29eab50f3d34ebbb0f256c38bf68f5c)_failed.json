@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "brand_id": "e29eab50f3d34ebbb0f256c38bf68f5c",
+    "brand_name": "푸라닭",
+    "totalCount": 9,
+    "extractedAt": "2026-03-17T06:35:20.000Z",
+    "sourceUrl": "https://puradakchicken.com/startup/store.asp",
+    "note": "지오코딩 실패 레코드 — 주소 오타 또는 불완전한 주소"
+  },
+  "stores": [
+    {
+      "id": 134,
+      "name": "푸라닭 연천청산점",
+      "address": "경기도 연천시 청산면 청창로 715, 1층 102호",
+      "contact": "031-833-9393",
+      "lat": null,
+      "lng": null,
+      "region": "경기도",
+      "district": "연천시"
+    },
+    {
+      "id": 211,
+      "name": "푸라닭 광주오포점",
+      "address": "경기도 광주시 오포읍 양벌로 195-30, 1층 107호 (이편한프라자)",
+      "contact": "031-797-9206",
+      "lat": null,
+      "lng": null,
+      "region": "경기도",
+      "district": "광주시"
+    },
+    {
+      "id": 296,
+      "name": "푸라닭 광주경안점",
+      "address": "경기도 광주시 중앙로145번갈 3, 1동 (경안동)",
+      "contact": "031-767-9206",
+      "lat": null,
+      "lng": null,
+      "region": "경기도",
+      "district": "광주시"
+    },
+    {
+      "id": 308,
+      "name": "푸라닭 창원용호점",
+      "address": "경상남도 창원시 의창구 용지로153번길 10 (용호동)",
+      "contact": "055-289-9206",
+      "lat": null,
+      "lng": null,
+      "region": "경상남도",
+      "district": "창원시"
+    },
+    {
+      "id": 316,
+      "name": "푸라닭 인천영종하늘도시점",
+      "address": "인천광역시 종구 하늘별빛로 59 (중산동)",
+      "contact": "032-746-9276",
+      "lat": null,
+      "lng": null,
+      "region": "인천광역시",
+      "district": "종구"
+    },
+    {
+      "id": 377,
+      "name": "푸라닭 광주우산소촌점",
+      "address": "광주광역시 광산구 우산로95번기 44. 1층 107호 (우산동)",
+      "contact": "062-941-9206",
+      "lat": null,
+      "lng": null,
+      "region": "광주광역시",
+      "district": "광산구"
+    },
+    {
+      "id": 437,
+      "name": "푸라닭 광주신현점",
+      "address": "경기 광주시 오포읍 능평로 63 (능평리)",
+      "contact": "031-713-9206",
+      "lat": null,
+      "lng": null,
+      "region": "경기",
+      "district": "광주시"
+    },
+    {
+      "id": 665,
+      "name": "푸라닭 부산신호명지점",
+      "address": "부산 강서구 신호산단5로 68-4 (신호동) A동 102호(신호동)",
+      "contact": "051-941-9206",
+      "lat": null,
+      "lng": null,
+      "region": "부산",
+      "district": "강서구"
+    },
+    {
+      "id": 702,
+      "name": "푸라닭 전주효자점",
+      "address": "(효자동1가, 상산타운)",
+      "contact": "063-236-9206",
+      "lat": null,
+      "lng": null,
+      "region": "(효자동1가,",
+      "district": "상산타운)"
+    }
+  ]
+}
