@@ -1,0 +1,52 @@
+[
+  {
+    "name": "홍콩반점 안산본오점(휴점)",
+    "address": "",
+    "contact": null,
+    "lat": null,
+    "lng": null,
+    "region": "",
+    "district": "",
+    "id": 6
+  },
+  {
+    "name": "홍콩반점 태릉입구역점",
+    "address": "서울 노원구 동일로147길 32 1층",
+    "contact": "02-6326-0410",
+    "lat": null,
+    "lng": null,
+    "region": "서울",
+    "district": "노원구",
+    "id": 91
+  },
+  {
+    "name": "홍콩반점 고대안암점",
+    "address": "서울특별시 성북구 인촌로24가길 6 (2층)",
+    "contact": "02-6084-8864",
+    "lat": null,
+    "lng": null,
+    "region": "서울특별시",
+    "district": "성북구",
+    "id": 190
+  },
+  {
+    "name": "홍콩반점 대전죽동점",
+    "address": "대전광역시 유성구 죽동로 279번지 5-23 1층",
+    "contact": "042-867-0410",
+    "lat": null,
+    "lng": null,
+    "region": "대전광역시",
+    "district": "유성구",
+    "id": 197
+  },
+  {
+    "name": "홍콩반점 창원시티세븐점",
+    "address": "경상남도 창원시 의창구 원이대로 320 더시티세븐 307호",
+    "contact": "055-600-5236",
+    "lat": null,
+    "lng": null,
+    "region": "경상남도",
+    "district": "창원시",
+    "id": 260
+  }
+]
