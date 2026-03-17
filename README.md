@@ -12,7 +12,7 @@ that runs on demand or on a schedule. All data stays on your machine in SQLite.
 ## Quick start
 
 ```bash
-git clone https://github.com/2fe2000/websource.git
+git clone https://github.com/Nanum-Navi/websource.git
 cd websource
 npm install
 npx playwright install chromium
