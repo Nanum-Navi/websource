@@ -1,0 +1,78 @@
+{
+  "input": {
+    "required": ["brand_id", "brand_name", "url"],
+    "description": "사용자가 제공하는 3가지 입력값"
+  },
+  "naming": {
+    "fileNamePattern": "{brand_name}({brand_id}).json",
+    "outputDirectory": "data/"
+  },
+  "fields": {
+    "required": ["name", "address", "lat", "lng"],
+    "optional": ["contact"],
+    "fieldMapping": {
+      "name": {
+        "aliases": ["매장명", "점포명", "가맹점명", "store_name", "shopName", "branch_name"],
+        "type": "string"
+      },
+      "address": {
+        "aliases": ["주소", "도로명주소", "addr", "address", "road_address", "roadAddr"],
+        "type": "string"
+      },
+      "contact": {
+        "aliases": ["전화번호", "연락처", "tel", "phone", "telephone"],
+        "type": "string",
+        "nullable": true
+      },
+      "lat": {
+        "aliases": ["위도", "latitude", "y", "lat", "ycoord"],
+        "type": "string"
+      },
+      "lng": {
+        "aliases": ["경도", "longitude", "x", "lng", "xcoord"],
+        "type": "string"
+      }
+    }
+  },
+  "transforms": {
+    "name": {
+      "prefixWithBrandName": true,
+      "description": "매장명이 brand_name으로 시작하지 않으면 '{brand_name} {name}' 형태로 변환"
+    },
+    "lat": {
+      "keepAsString": true,
+      "description": "정확도 보존을 위해 문자열 유지"
+    },
+    "lng": {
+      "keepAsString": true,
+      "description": "정확도 보존을 위해 문자열 유지"
+    },
+    "region": {
+      "deriveFromAddress": true,
+      "tokenIndex": 0,
+      "description": "주소의 첫 번째 공백 구분 토큰 (시/도)"
+    },
+    "district": {
+      "deriveFromAddress": true,
+      "tokenIndex": 1,
+      "description": "주소의 두 번째 공백 구분 토큰 (시/군/구)"
+    }
+  },
+  "deduplication": {
+    "keys": ["name", "address"]
+  },
+  "extraction": {
+    "defaultFetchMode": "rendered",
+    "rateLimitMs": 1000,
+    "maxPages": 500,
+    "robotsPolicy": "respect"
+  },
+  "validation": {
+    "coordinateRange": {
+      "lat": { "min": 33, "max": 39 },
+      "lng": { "min": 124, "max": 132 }
+    },
+    "errorThreshold": 0.05,
+    "errorThresholdDescription": "전체 레코드 중 5% 이상 오류 시 추출 실패 처리"
+  }
+}
