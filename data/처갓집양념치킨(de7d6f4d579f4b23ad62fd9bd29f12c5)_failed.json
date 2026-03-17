@@ -1,0 +1,252 @@
+[
+  {
+    "id": 36,
+    "name": "처갓집양념치킨 육사점",
+    "address": "서울 노원구 공릉동 공릉 사서함77-5",
+    "contact": "02-2197-5941",
+    "lat": null,
+    "lng": null,
+    "region": "서울",
+    "district": "노원구"
+  },
+  {
+    "id": 307,
+    "name": "처갓집양념치킨 문형점",
+    "address": "경기 광주시 오포읍 오포로 447",
+    "contact": "031-768-8640",
+    "lat": null,
+    "lng": null,
+    "region": "경기",
+    "district": "광주시"
+  },
+  {
+    "id": 417,
+    "name": "처갓집양념치킨 신호동점",
+    "address": "부산 강서구 신호산단3로 66",
+    "contact": "051-831-0318",
+    "lat": null,
+    "lng": null,
+    "region": "부산",
+    "district": "강서구"
+  },
+  {
+    "id": 427,
+    "name": "처갓집양념치킨 전주혁신점",
+    "address": "전북 전주시 덕진구 중동 오정2길3",
+    "contact": "063-222-9283",
+    "lat": null,
+    "lng": null,
+    "region": "전북",
+    "district": "전주시"
+  },
+  {
+    "id": 495,
+    "name": "처갓집양념치킨 구영점",
+    "address": "울산 울주군 범서읍 798-1",
+    "contact": "052-212-9211",
+    "lat": null,
+    "lng": null,
+    "region": "울산",
+    "district": "울주군"
+  },
+  {
+    "id": 507,
+    "name": "처갓집양념치킨 백령도점",
+    "address": "인천 옹진군 백령면664-7",
+    "contact": "032-836-8282",
+    "lat": null,
+    "lng": null,
+    "region": "인천",
+    "district": "옹진군"
+  },
+  {
+    "id": 599,
+    "name": "처갓집양념치킨 오포점",
+    "address": "경기 광주시 오포읍 양벌로 315",
+    "contact": "031-765-9989",
+    "lat": null,
+    "lng": null,
+    "region": "경기",
+    "district": "광주시"
+  },
+  {
+    "id": 681,
+    "name": "처갓집양념치킨 천리점",
+    "address": "경기 용인시 이동면 천리 56-6",
+    "contact": "031-333-5784",
+    "lat": null,
+    "lng": null,
+    "region": "경기",
+    "district": "용인시"
+  },
+  {
+    "id": 698,
+    "name": "처갓집양념치킨 능평점",
+    "address": "경기 광주시 오포읍 수레실길 5",
+    "contact": "031-726-9253",
+    "lat": null,
+    "lng": null,
+    "region": "경기",
+    "district": "광주시"
+  },
+  {
+    "id": 784,
+    "name": "처갓집양념치킨 도화점",
+    "address": "서울 마포구 도화1동 25-4",
+    "contact": "02-702-6692",
+    "lat": null,
+    "lng": null,
+    "region": "서울",
+    "district": "마포구"
+  },
+  {
+    "id": 859,
+    "name": "처갓집양념치킨 진도점",
+    "address": "전남 진도군 진도읍 남동리 쌍정2길 30",
+    "contact": "061-542-3939",
+    "lat": null,
+    "lng": null,
+    "region": "전남",
+    "district": "진도군"
+  },
+  {
+    "id": 910,
+    "name": "처갓집양념치킨 공항점",
+    "address": "부산 강서구 공항진입로42번길",
+    "contact": "051-971-9282",
+    "lat": null,
+    "lng": null,
+    "region": "부산",
+    "district": "강서구"
+  },
+  {
+    "id": 916,
+    "name": "처갓집양념치킨 덕천1호점",
+    "address": "부산 북구 덕천동 의성로 115번길 3",
+    "contact": "051-338-9977",
+    "lat": null,
+    "lng": null,
+    "region": "부산",
+    "district": "북구"
+  },
+  {
+    "id": 926,
+    "name": "처갓집양념치킨 전포점",
+    "address": "부산 부산진구 전포동 전포대로294",
+    "contact": "051-804-9280",
+    "lat": null,
+    "lng": null,
+    "region": "부산",
+    "district": "부산진구"
+  },
+  {
+    "id": 991,
+    "name": "처갓집양념치킨 두암타운점",
+    "address": "광주 동구 산수동 밤실로 147 (두암타운상가 105호)",
+    "contact": "062-261-2962",
+    "lat": null,
+    "lng": null,
+    "region": "광주",
+    "district": "동구"
+  },
+  {
+    "id": 998,
+    "name": "처갓집양념치킨 진보점",
+    "address": "경북 청송군 진보면 진안79-2",
+    "contact": "054-874-2646",
+    "lat": null,
+    "lng": null,
+    "region": "경북",
+    "district": "청송군"
+  },
+  {
+    "id": 1010,
+    "name": "처갓집양념치킨 동해점",
+    "address": "경북 포항시 남구동해면 약전1리291-1",
+    "contact": "054-284-4957",
+    "lat": null,
+    "lng": null,
+    "region": "경북",
+    "district": "포항시"
+  },
+  {
+    "id": 1041,
+    "name": "처갓집양념치킨 서재점",
+    "address": "대구 달성군 다사읍 서재리 서재로 108",
+    "contact": "053-585-8145",
+    "lat": null,
+    "lng": null,
+    "region": "대구",
+    "district": "달성군"
+  },
+  {
+    "id": 1110,
+    "name": "처갓집양념치킨 갑오점",
+    "address": "경남 김해시 장유면 대청리 332-4 대청프라자 A-218",
+    "contact": "055-332-7891",
+    "lat": null,
+    "lng": null,
+    "region": "경남",
+    "district": "김해시"
+  },
+  {
+    "id": 1146,
+    "name": "처갓집양념치킨 삼송리점",
+    "address": "경기 고양시 삼송로185번길",
+    "contact": "02-381-1188",
+    "lat": null,
+    "lng": null,
+    "region": "경기",
+    "district": "고양시"
+  },
+  {
+    "id": 1186,
+    "name": "처갓집양념치킨 봉담점",
+    "address": "경기 화성시 봉담읍 상리15-10",
+    "contact": "031-227-0052",
+    "lat": null,
+    "lng": null,
+    "region": "경기",
+    "district": "화성시"
+  },
+  {
+    "id": 1191,
+    "name": "처갓집양념치킨 남양점",
+    "address": "경기 화성시 남양동 547",
+    "contact": "031-357-9980",
+    "lat": null,
+    "lng": null,
+    "region": "경기",
+    "district": "화성시"
+  },
+  {
+    "id": 1196,
+    "name": "처갓집양념치킨 왕림점",
+    "address": "경기 화성시 봉담읍 왕림 405-1",
+    "contact": "031-298-6531",
+    "lat": null,
+    "lng": null,
+    "region": "경기",
+    "district": "화성시"
+  },
+  {
+    "id": 1219,
+    "name": "처갓집양념치킨 주천점",
+    "address": "강원 영월군 주천면 주천면 주천로84번길 1",
+    "contact": "033-372-9262",
+    "lat": null,
+    "lng": null,
+    "region": "강원",
+    "district": "영월군"
+  },
+  {
+    "id": 1251,
+    "name": "처갓집양념치킨 속초교동점",
+    "address": "강원 속초시 교동 먹거리4길 33(교동)",
+    "contact": "033-632-3370",
+    "lat": null,
+    "lng": null,
+    "region": "강원",
+    "district": "속초시"
+  }
+]
