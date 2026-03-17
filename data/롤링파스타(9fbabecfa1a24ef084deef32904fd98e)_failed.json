@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "brand_id": "9fbabecfa1a24ef084deef32904fd98e",
+    "brand_name": "롤링파스타",
+    "totalCount": 5,
+    "extractedAt": "2026-03-17T07:01:17.000Z",
+    "sourceUrl": "https://rolling-pasta.com/#store",
+    "note": "지오코딩 실패 레코드 — 주소 오타 또는 불완전한 주소"
+  },
+  "stores": [
+    {
+      "name": "롤링파스타 대구칠곡점",
+      "address": "대구 광역시 북구 등천로 136 2층",
+      "contact": "053-322-7820",
+      "lat": null,
+      "lng": null,
+      "region": "대구",
+      "district": "광역시"
+    },
+    {
+      "name": "롤링파스타 내포신도시점",
+      "address": "충남 홍성군 홍복읍 신경리 587 센텀시티 1동 201호",
+      "contact": "041-633-0790",
+      "lat": null,
+      "lng": null,
+      "region": "충남",
+      "district": "홍성군"
+    },
+    {
+      "name": "롤링파스타 마산합성점",
+      "address": "경남 창원시 마산회구 합성동 126-31 2층",
+      "contact": "055-299-4569",
+      "lat": null,
+      "lng": null,
+      "region": "경남",
+      "district": "창원시"
+    },
+    {
+      "name": "롤링파스타 이마트월계점",
+      "address": "서울시 노원구 마들도 3길 15 이마트월계점 2층 전문식당가",
+      "contact": null,
+      "lat": null,
+      "lng": null,
+      "region": "서울시",
+      "district": "노원구"
+    },
+    {
+      "name": "롤링파스타 신촌점",
+      "address": "서울시 서대문구 창전동 18-1",
+      "contact": "02-363-1999",
+      "lat": null,
+      "lng": null,
+      "region": "서울시",
+      "district": "서대문구"
+    }
+  ]
+}
