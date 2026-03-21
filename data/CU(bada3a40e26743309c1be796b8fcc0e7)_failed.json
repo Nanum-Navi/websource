@@ -1,0 +1,961 @@
+[
+  {
+    "name": "CU B동원홈푸드화성점",
+    "address": "경기도 화성시 남양읍 활초리 산188번지",
+    "contact": null,
+    "region": "경기도",
+    "district": "화성시"
+  },
+  {
+    "name": "CU B웰스토리광주점",
+    "address": "전라남도 나주시 동수농동단지길 62-237 (운곡동)",
+    "contact": null,
+    "region": "전라남도",
+    "district": "나주시"
+  },
+  {
+    "name": "CU B풀무원남양기숙사점",
+    "address": "경기도 화성시 남양읍 활초리 산188번지",
+    "contact": null,
+    "region": "경기도",
+    "district": "화성시"
+  },
+  {
+    "name": "CU B풀무원남양연구소점",
+    "address": "경기도 화성시 남양읍 활초리 산188번지",
+    "contact": null,
+    "region": "경기도",
+    "district": "화성시"
+  },
+  {
+    "name": "CU E공주휴게소당진점",
+    "address": "충청남도 공주시 당진영덕고속도로 고속도로 71 공주(당진방향)휴게소 (청룡리) 공주(당진방향)휴게소",
+    "contact": null,
+    "region": "충청남도",
+    "district": "공주시"
+  },
+  {
+    "name": "CU E구리남양주휴게소점",
+    "address": "경기도 구리시 서울외곽순환고속도로 27 한국도로공사구리남양주영업소 (토평동) 한국도로공사구리남양주영업소",
+    "contact": "01071459256",
+    "region": "경기도",
+    "district": "구리시"
+  },
+  {
+    "name": "CU E서하남휴게소점",
+    "address": "경기도 하남시 서울외곽순환고속도로 19",
+    "contact": "01071459256",
+    "region": "경기도",
+    "district": "하남시"
+  },
+  {
+    "name": "CU E외동휴게소울산점",
+    "address": "경상북도 경주시 외동읍 산231-33번지",
+    "contact": null,
+    "region": "경상북도",
+    "district": "경주시"
+  },
+  {
+    "name": "CU E포항휴게소포항점",
+    "address": "경북 포항시 북구 동해대로 3373 1층",
+    "contact": null,
+    "region": "경북",
+    "district": "포항시"
+  },
+  {
+    "name": "CU M김포공항역2호점",
+    "address": "서울특별시 강서구 하늘길 지하 77 김포공항역 (방화동) 김포공항역",
+    "contact": null,
+    "region": "서울특별시",
+    "district": "강서구"
+  },
+  {
+    "name": "CU M김포공항역점",
+    "address": "서울특별시 강서구 하늘길 지하 77 김포공항역 (방화동) 김포공항역",
+    "contact": "07043078782",
+    "region": "서울특별시",
+    "district": "강서구"
+  },
+  {
+    "name": "CU M부산서면환승역점",
+    "address": "부산광역시 부산진구 중앙대로 지하 730 서면역 (부전동) 서면역",
+    "contact": null,
+    "region": "부산광역시",
+    "district": "부산진구"
+  },
+  {
+    "name": "CU M잠실역점",
+    "address": "서울특별시 송파구 올림픽로 지하265, 서울메트로 2호선 잠실역(잠실동) 1층 216동 102호",
+    "contact": "024230625",
+    "region": "서울특별시",
+    "district": "송파구"
+  },
+  {
+    "name": "CU M전포역점",
+    "address": "부산광역시 부산진구 전포대로 지하 197 (전포동)",
+    "contact": null,
+    "region": "부산광역시",
+    "district": "부산진구"
+  },
+  {
+    "name": "CU M충무로역2호점",
+    "address": "서울특별시 중구 퇴계로 지하 199, 충무로(4)역",
+    "contact": null,
+    "region": "서울특별시",
+    "district": "중구"
+  },
+  {
+    "name": "CU M충무로역점",
+    "address": "서울특별시 중구 퇴계로 지하 214, 상가 109호 (필동2가) 지하1층",
+    "contact": "15773663",
+    "region": "서울특별시",
+    "district": "중구"
+  },
+  {
+    "name": "CU 가산승리점",
+    "address": "서울특별시 금천구 가산동 디지털로 121 에이스가산타워 1층 104호",
+    "contact": null,
+    "region": "서울특별시",
+    "district": "금천구"
+  },
+  {
+    "name": "CU 가촌이지2차점",
+    "address": "경상남도 양산시 물급읍 물금로 75 1층 220동 125,126호",
+    "contact": "01038716677",
+    "region": "경상남도",
+    "district": "양산시"
+  },
+  {
+    "name": "CU 간석래미안점",
+    "address": "인청광역시 남동구 석산로 156, 1층 105호",
+    "contact": "0324665805",
+    "region": "인청광역시",
+    "district": "남동구"
+  },
+  {
+    "name": "CU 갈산역사점",
+    "address": "인천광역시 부평구 부평대로 지하 286",
+    "contact": "0323620130",
+    "region": "인천광역시",
+    "district": "부평구"
+  },
+  {
+    "name": "CU 강서골든뷰점",
+    "address": "부산광역시 강서구 신호산단2로 33, 골든뷰 (신호동) 1층 104호",
+    "contact": "0519716667",
+    "region": "부산광역시",
+    "district": "강서구"
+  },
+  {
+    "name": "CU 건양대대전점",
+    "address": "대전광역시 서구 대학동로 158 1층",
+    "contact": "0426008884",
+    "region": "대전광역시",
+    "district": "서구"
+  },
+  {
+    "name": "CU 경주해링턴플레이스점",
+    "address": "경상북도 경주시 건천읍 경주역세권3로 제112동 근린생활시설 B102호",
+    "contact": null,
+    "region": "경상북도",
+    "district": "경주시"
+  },
+  {
+    "name": "CU 고창상하점",
+    "address": "전라북도 고창군 상하면 진암구시로포 13 1층",
+    "contact": "0635642301",
+    "region": "전라북도",
+    "district": "고창군"
+  },
+  {
+    "name": "CU 과천제이드자이점",
+    "address": "경기도 과천시 지식정보타운 내 S9블럭 과천제이드자이 단지내상가 1,2호 1층",
+    "contact": "0310000000",
+    "region": "경기도",
+    "district": "과천시"
+  },
+  {
+    "name": "CU 광주능평그린점",
+    "address": "경기도 광주시 오포읍 오포로 273",
+    "contact": null,
+    "region": "경기도",
+    "district": "광주시"
+  },
+  {
+    "name": "CU 광주매산점",
+    "address": "경기도 광주시 오포읍 회안대로71번길 4, (매산리)",
+    "contact": "0317663641",
+    "region": "경기도",
+    "district": "광주시"
+  },
+  {
+    "name": "CU 광주문형스타점",
+    "address": "경기도 광주시 오포읍 봉골길 59 (문형리)",
+    "contact": null,
+    "region": "경기도",
+    "district": "광주시"
+  },
+  {
+    "name": "CU 광주수레실점",
+    "address": "경기도 광주시 오포읍 수레실길 40-1, (능평리)",
+    "contact": "0317137732",
+    "region": "경기도",
+    "district": "광주시"
+  },
+  {
+    "name": "CU 광주신현스타점",
+    "address": "경기도 광주시 오포읍 새말길 279 (신현리)",
+    "contact": null,
+    "region": "경기도",
+    "district": "광주시"
+  },
+  {
+    "name": "CU 광주신현최고점",
+    "address": "경기도 광주시 오포읍 머루숯길 25-1 (신현리) 지하1층",
+    "contact": null,
+    "region": "경기도",
+    "district": "광주시"
+  },
+  {
+    "name": "CU 광주양촌길점",
+    "address": "경기도 광주시 오포읍 양촌길 213-8,더하우스 771",
+    "contact": null,
+    "region": "경기도",
+    "district": "광주시"
+  },
+  {
+    "name": "CU 광주오포고산점",
+    "address": "경기도 광주시 오포읍 허산길 3, (고산리)",
+    "contact": "031-797-5164",
+    "region": "경기도",
+    "district": "광주시"
+  },
+  {
+    "name": "CU 광주오포본점",
+    "address": "경기도 광주시 오포읍 오포로 173",
+    "contact": null,
+    "region": "경기도",
+    "district": "광주시"
+  },
+  {
+    "name": "CU 광주오포양우점",
+    "address": "경기도 광주시 오포읍 수렁개들길32번길 12 (문형리)",
+    "contact": null,
+    "region": "경기도",
+    "district": "광주시"
+  },
+  {
+    "name": "CU 광주오포왕림점",
+    "address": "경기도 광주시 오포읍 왕림로 45 (능평리)",
+    "contact": null,
+    "region": "경기도",
+    "district": "광주시"
+  },
+  {
+    "name": "CU 광주오포용상점",
+    "address": "경기도 광주시 오포읍 능평로30번길 22 (능평리)",
+    "contact": "01055758603",
+    "region": "경기도",
+    "district": "광주시"
+  },
+  {
+    "name": "CU 광주오포현대점",
+    "address": "경기도 광주시 오포읍 능평로 38-5 (능평리)",
+    "contact": null,
+    "region": "경기도",
+    "district": "광주시"
+  },
+  {
+    "name": "CU 광주우방점",
+    "address": "경기도 광주시 오포읍 청석로 72 (양벌리, 광주역우방아이유쉘2단지)",
+    "contact": null,
+    "region": "경기도",
+    "district": "광주시"
+  },
+  {
+    "name": "CU 김천천년나무점",
+    "address": "경상북도 김천시 농소면 해오름1로 19",
+    "contact": null,
+    "region": "경상북도",
+    "district": "김천시"
+  },
+  {
+    "name": "CU 남동형제전기점",
+    "address": "인천광역시 남동구 남동대로156번길 4, (고잔동)",
+    "contact": "0328130864",
+    "region": "인천광역시",
+    "district": "남동구"
+  },
+  {
+    "name": "CU 내포이지더원2차점",
+    "address": "충천남도 예산군 삽교읍 수암천로 23",
+    "contact": null,
+    "region": "충천남도",
+    "district": "예산군"
+  },
+  {
+    "name": "CU 노원상계역점",
+    "address": "서울특별시 노원구 한글비석로19길 7 (중계동, 삼창빌라) 삼창빌라",
+    "contact": "02-933-8880",
+    "region": "서울특별시",
+    "district": "노원구"
+  },
+  {
+    "name": "CU 논산국방대점",
+    "address": "충청남남 논산시 양촌면 황산벌로 1098번길 85-3, 1층 1층",
+    "contact": null,
+    "region": "충청남남",
+    "district": "논산시"
+  },
+  {
+    "name": "CU 뉴광주신촌점",
+    "address": "경기도 광주시 곤지암읍 신만로 신만로 7",
+    "contact": "031.763.2468",
+    "region": "경기도",
+    "district": "광주시"
+  },
+  {
+    "name": "CU 뉴발안우림점",
+    "address": "경기도 화성시 향남읍 발안리 403번지",
+    "contact": null,
+    "region": "경기도",
+    "district": "화성시"
+  },
+  {
+    "name": "CU 뉴시화행복점",
+    "address": "경기도 시흥시 경기공대로 84 (정왕동)",
+    "contact": null,
+    "region": "경기도",
+    "district": "시흥시"
+  },
+  {
+    "name": "CU 뉴신현스타점",
+    "address": "경기도 광주시 오포읍 상태길 41-17 (신현리)",
+    "contact": null,
+    "region": "경기도",
+    "district": "광주시"
+  },
+  {
+    "name": "CU 뉴연기소정점",
+    "address": "세종특별자치시 세종시 소정구길 169",
+    "contact": null,
+    "region": "세종특별자치시",
+    "district": "세종시"
+  },
+  {
+    "name": "CU 뉴조치원신흥점",
+    "address": "세종특별자치시 세종특별자치시 대첩로 56 (조치원읍) 1층",
+    "contact": "0448641546",
+    "region": "세종특별자치시",
+    "district": "세종특별자치시"
+  },
+  {
+    "name": "CU 뉴중화중앙점",
+    "address": "서울특별시 중랑구 중화동 동일로123길 30",
+    "contact": null,
+    "region": "서울특별시",
+    "district": "중랑구"
+  },
+  {
+    "name": "CU 대관령IC점",
+    "address": "강원도 평창군 대관령면 377-116번지",
+    "contact": "0333353354",
+    "region": "강원도",
+    "district": "평창군"
+  },
+  {
+    "name": "CU 도안푸르지오점",
+    "address": "대전광역시 유성구 용계로 45",
+    "contact": null,
+    "region": "대전광역시",
+    "district": "유성구"
+  },
+  {
+    "name": "CU 동춘역점",
+    "address": "인천광역시 연수구 경원대로 지하 180 동춘역",
+    "contact": null,
+    "region": "인천광역시",
+    "district": "연수구"
+  },
+  {
+    "name": "CU 동탄레이크시티점",
+    "address": "경기도 화성시 산척동 610-2번지 1층",
+    "contact": "031-375-8768",
+    "region": "경기도",
+    "district": "화성시"
+  },
+  {
+    "name": "CU 동탄사랑점",
+    "address": "경기도 화성시 동탄면 동탄기흥로257번나길 40-1, (방교리)",
+    "contact": "0313777218",
+    "region": "경기도",
+    "district": "화성시"
+  },
+  {
+    "name": "CU 동탄스타힐스점",
+    "address": "경기도 화성시 동탄면 동탄순환대로17길 15, 상가동 103호 104호(산척리) 1층",
+    "contact": "0313780319",
+    "region": "경기도",
+    "district": "화성시"
+  },
+  {
+    "name": "CU 동탄파크릭스점",
+    "address": "경기도 화성시 신동 201-1",
+    "contact": null,
+    "region": "경기도",
+    "district": "화성시"
+  },
+  {
+    "name": "CU 라마다평창점",
+    "address": "강원도 평창군 대관령면 횡계리 횡계리 245-66번 지하1층",
+    "contact": null,
+    "region": "강원도",
+    "district": "평창군"
+  },
+  {
+    "name": "CU 리마크빌부산역점",
+    "address": "부산광영시 동구 중앙대로 185 1층 101호",
+    "contact": null,
+    "region": "부산광영시",
+    "district": "동구"
+  },
+  {
+    "name": "CU 마포자이3차점",
+    "address": "서울특별시 마포구 숭문8길 4-3 (염리동)",
+    "contact": "027041110",
+    "region": "서울특별시",
+    "district": "마포구"
+  },
+  {
+    "name": "CU 명지신호점",
+    "address": "부산광역시 강서구 신호산단1로 76",
+    "contact": "0519737127",
+    "region": "부산광역시",
+    "district": "강서구"
+  },
+  {
+    "name": "CU 목포으뜸점",
+    "address": "",
+    "contact": null,
+    "region": "",
+    "district": ""
+  },
+  {
+    "name": "CU 물금삼정그린점",
+    "address": "경상남도 양산시 물금읍 199 삼정그린코아더시티 109호, 110호 1층 109, 110호",
+    "contact": "0553835502",
+    "region": "경상남도",
+    "district": "양산시"
+  },
+  {
+    "name": "CU 밀양예림대동점",
+    "address": "경상남도 밀양시 상남면 1191 1층",
+    "contact": "0553543849",
+    "region": "경상남도",
+    "district": "밀양시"
+  },
+  {
+    "name": "CU 방배백석점",
+    "address": "서울특별시 서초구 방배로42길 101호 1층",
+    "contact": null,
+    "region": "서울특별시",
+    "district": "서초구"
+  },
+  {
+    "name": "CU 봉담망고타운점",
+    "address": "경기도 화성시 봉담읍 상리 688-2번지 1층 115호",
+    "contact": null,
+    "region": "경기도",
+    "district": "화성시"
+  },
+  {
+    "name": "CU 부평역지하상가점",
+    "address": "인천광역시 부평구 부평대로 지하 7 지하부평역 (부평동) 지하부평역",
+    "contact": null,
+    "region": "인천광역시",
+    "district": "부평구"
+  },
+  {
+    "name": "CU 블랙스톤벨포레점",
+    "address": "충청북도 증평군 도안면 벼루재길 512-15 (연촌리)",
+    "contact": null,
+    "region": "충청북도",
+    "district": "증평군"
+  },
+  {
+    "name": "CU 석포산업단지점",
+    "address": "경기도 화성시 장안면 석포리 656-3번지",
+    "contact": null,
+    "region": "경기도",
+    "district": "화성시"
+  },
+  {
+    "name": "CU 세종1번국도점",
+    "address": "세종특별자치시 세종시 세종로 2676",
+    "contact": null,
+    "region": "세종특별자치시",
+    "district": "세종시"
+  },
+  {
+    "name": "CU 세종가재마을4단지점",
+    "address": "세종특별자치시 세종특별자치시 도움3로 160 (종촌동) 가재마을4단지",
+    "contact": null,
+    "region": "세종특별자치시",
+    "district": "세종특별자치시"
+  },
+  {
+    "name": "CU 세종고운센터점",
+    "address": "세종특별자치시 세종특별자치시 마음로 67 (고운동) 가락마을1단지",
+    "contact": null,
+    "region": "세종특별자치시",
+    "district": "세종특별자치시"
+  },
+  {
+    "name": "CU 세종공동캠퍼스점",
+    "address": "세종특별자치시 집현동 행복도시 4-2생활권 대학 4-2 학생회관",
+    "contact": null,
+    "region": "세종특별자치시",
+    "district": "집현동"
+  },
+  {
+    "name": "CU 세종마스터힐스1차점",
+    "address": "세종특별자치시 세종시 해밀3로 32 1층",
+    "contact": null,
+    "region": "세종특별자치시",
+    "district": "세종시"
+  },
+  {
+    "name": "CU 세종새나루마을8단지",
+    "address": "세종특별자치시 세종특별자치시 집현서로 16 (집현동) 상가동 101호",
+    "contact": null,
+    "region": "세종특별자치시",
+    "district": "세종특별자치시"
+  },
+  {
+    "name": "CU 세종서창행복점",
+    "address": "세종특별자치시 세종시 조치원중고길 7 1층",
+    "contact": null,
+    "region": "세종특별자치시",
+    "district": "세종시"
+  },
+  {
+    "name": "CU 세종소담점",
+    "address": "세종특별자치시 세종특별자치시 소담3로 21 (소담동) 근린생활시설",
+    "contact": null,
+    "region": "세종특별자치시",
+    "district": "세종특별자치시"
+  },
+  {
+    "name": "CU 세종소정점",
+    "address": "세종특별자치시 세종특별자치시 운당9길 56 (소정면) 1층",
+    "contact": "0448682141",
+    "region": "세종특별자치시",
+    "district": "세종특별자치시"
+  },
+  {
+    "name": "CU 세종수루배마을2단지",
+    "address": "세종특별자치시 세종특별자치시 한누리대로 1839 (반곡동) 수루배마을2단지 근린생활시설 B1층 상가B동 112호",
+    "contact": null,
+    "region": "세종특별자치시",
+    "district": "세종특별자치시"
+  },
+  {
+    "name": "CU 세종스마트허브점",
+    "address": "세종특별자치시 세종시 한누리대로 2150 1층",
+    "contact": null,
+    "region": "세종특별자치시",
+    "district": "세종시"
+  },
+  {
+    "name": "CU 세종이편한세상점",
+    "address": "세종특별자치시 세종특별자치시 한누리대로 2236 (대평동) 해들마을 6단지 상가2동 1층 A125, 126호",
+    "contact": null,
+    "region": "세종특별자치시",
+    "district": "세종특별자치시"
+  },
+  {
+    "name": "CU 세종이편한푸르지오점",
+    "address": "세종특별자치시 세종특별자치시 다정중앙로 19 (다정동)",
+    "contact": null,
+    "region": "세종특별자치시",
+    "district": "세종특별자치시"
+  },
+  {
+    "name": "CU 세종전의산단점",
+    "address": "세종특별자치시 세종시 왕의물로 254 1층",
+    "contact": null,
+    "region": "세종특별자치시",
+    "district": "세종시"
+  },
+  {
+    "name": "CU 세종펜타힐스점",
+    "address": "세종특별자치시 세종특별자치시 소담1로 12 (소담동) 1층 113호",
+    "contact": "0",
+    "region": "세종특별자치시",
+    "district": "세종특별자치시"
+  },
+  {
+    "name": "CU 세종한신점",
+    "address": "세종특별자치시 세종특별자치시 도움1로 55 (종촌동) 가재마을한신휴플러스리버파크9단지아파트 상가동 1층 101,102호",
+    "contact": "0448629746",
+    "region": "세종특별자치시",
+    "district": "세종특별자치시"
+  },
+  {
+    "name": "CU 세종호수의아침점",
+    "address": "세종특별자치시 세종시 가름로 253",
+    "contact": null,
+    "region": "세종특별자치시",
+    "district": "세종시"
+  },
+  {
+    "name": "CU 세종휴시티점",
+    "address": "세종특별자치시 세종특별자치시 보듬3로 8-20 (도담동) 한신휴시티도담동 1층 111호",
+    "contact": null,
+    "region": "세종특별자치시",
+    "district": "세종특별자치시"
+  },
+  {
+    "name": "CU 센트럴자이점",
+    "address": "서울특별시 중구 만리재로 139",
+    "contact": "023646663",
+    "region": "서울특별시",
+    "district": "중구"
+  },
+  {
+    "name": "CU 시흥대야역점",
+    "address": "경기도 시흥시 서해안로 지하1670, 시흥대야역 (대야동) 1층",
+    "contact": "07042485901",
+    "region": "경기도",
+    "district": "시흥시"
+  },
+  {
+    "name": "CU 신내힐데스하임점",
+    "address": "서울특별시 중랑구 망우동 양원공공주택지구 C1BL힐데스하임참좋은 아파트 단지 내 상가",
+    "contact": null,
+    "region": "서울특별시",
+    "district": "중랑구"
+  },
+  {
+    "name": "CU 신천역지점",
+    "address": "경기도 시흥시 신천로 지하92, 신천역(신천동) 1층",
+    "contact": "07077100940",
+    "region": "경기도",
+    "district": "시흥시"
+  },
+  {
+    "name": "CU 신현으뜸점",
+    "address": "경기도 광주시 오포읍 머루숯길81번길 2",
+    "contact": "0316038950",
+    "region": "경기도",
+    "district": "광주시"
+  },
+  {
+    "name": "CU 신현중앙점",
+    "address": "경기도 광주시 오포읍 신현리 484-2번지",
+    "contact": null,
+    "region": "경기도",
+    "district": "광주시"
+  },
+  {
+    "name": "CU 신호골든빌점",
+    "address": "부산광역시 강서구 신호산단1로 215, 새미래오피스텔 빌딩(신호동) 1층 104호",
+    "contact": "0518314989",
+    "region": "부산광역시",
+    "district": "강서구"
+  },
+  {
+    "name": "CU 신호부영사랑점",
+    "address": "부산광역시 강서구 신호산단4로 27, (신호동, 부산신호사랑으로부영2차아파트)",
+    "contact": "01031749764",
+    "region": "부산광역시",
+    "district": "강서구"
+  },
+  {
+    "name": "CU 신호산단원룸점",
+    "address": "부산광역시 강서구 신호산단2로49번길 71, (신호동)",
+    "contact": null,
+    "region": "부산광역시",
+    "district": "강서구"
+  },
+  {
+    "name": "CU 신호중앙점",
+    "address": "부산광역시 강서구 신호산단4로64번길 28 (신호동)",
+    "contact": null,
+    "region": "부산광역시",
+    "district": "강서구"
+  },
+  {
+    "name": "CU 안산시곡점",
+    "address": "경기도 안산시 상록구 감골1로 1층 112호,113호(사동, 신우아파트 종합상가동) 1층",
+    "contact": null,
+    "region": "경기도",
+    "district": "안산시"
+  },
+  {
+    "name": "CU 양평우정점",
+    "address": "경기도 양평군 양평읍 덕평리 마유산로 168 1층 일부 1층",
+    "contact": "031-773-4773",
+    "region": "경기도",
+    "district": "양평군"
+  },
+  {
+    "name": "CU 여수웅천부영점",
+    "address": "전라남도 여수시 웅천로 상가동 101호 (웅천동, 여수웅천사랑으로부영5차아파트) 1층",
+    "contact": null,
+    "region": "전라남도",
+    "district": "여수시"
+  },
+  {
+    "name": "CU 영주원당로점",
+    "address": "걍상북도 영주시 영주동 393-1번지",
+    "contact": "0546341581",
+    "region": "걍상북도",
+    "district": "영주시"
+  },
+  {
+    "name": "CU 오금레미니스2호점",
+    "address": "서울특별시 송파구 성내천로 17 (오금동)",
+    "contact": "024313799",
+    "region": "서울특별시",
+    "district": "송파구"
+  },
+  {
+    "name": "CU 오포베르빌점",
+    "address": "경기도 광주시 오포읍 능평로 193, (능평리, 오포베르빌)",
+    "contact": "0317631366",
+    "region": "경기도",
+    "district": "광주시"
+  },
+  {
+    "name": "CU 오포양촌점",
+    "address": "경기도 광주시 오포읍 양촌길 151, (양벌리) 1층",
+    "contact": "0317612939",
+    "region": "경기도",
+    "district": "광주시"
+  },
+  {
+    "name": "CU 올림픽공원KSPO점",
+    "address": "서울특별시 송파구 방이동 424 올림픽공원 1층",
+    "contact": null,
+    "region": "서울특별시",
+    "district": "송파구"
+  },
+  {
+    "name": "CU 용정산업단지점",
+    "address": "경기도 포천시 군내면 용정리 용정리 475-2 1층",
+    "contact": null,
+    "region": "경기도",
+    "district": "포천시"
+  },
+  {
+    "name": "CU 원주기업호반점",
+    "address": "강원도 원주시 지정면 신지정로 원주호반베르디움 2차 상가 336동 102호, 103호 1층",
+    "contact": null,
+    "region": "강원도",
+    "district": "원주시"
+  },
+  {
+    "name": "CU 이문1호점",
+    "address": "천장산로7길",
+    "contact": null,
+    "region": "천장산로7길",
+    "district": ""
+  },
+  {
+    "name": "CU 이천클래시아점",
+    "address": "경기도 이천시 부발읍 아미리 경충대로2050번길 15-87(이천클래시아테라스파크) 1층 -동 115호",
+    "contact": null,
+    "region": "경기도",
+    "district": "이천시"
+  },
+  {
+    "name": "CU 일등고대점",
+    "address": "서울특별시 성북구 인촌로24길 56,  (안암동5가)",
+    "contact": null,
+    "region": "서울특별시",
+    "district": "성북구"
+  },
+  {
+    "name": "CU 일산자이3차정문점",
+    "address": "경기도 고양시 일산동구 위시티3로 일산자이3차아파트 근린생활시설",
+    "contact": null,
+    "region": "경기도",
+    "district": "고양시"
+  },
+  {
+    "name": "CU 자양월드점",
+    "address": "서울특별시 광진구 자양동 능동로4길 85",
+    "contact": null,
+    "region": "서울특별시",
+    "district": "광진구"
+  },
+  {
+    "name": "CU 자양팰리스점",
+    "address": "서울특별시 광진구 아차산로 47길 23 (자양동, 레미안프리미어팰리스)",
+    "contact": "07088662470",
+    "region": "서울특별시",
+    "district": "광진구"
+  },
+  {
+    "name": "CU 잠실장미점",
+    "address": "서울특별시 송파구 신천로 25 장미상가 A-2 1층 1동 108호",
+    "contact": "024249998",
+    "region": "서울특별시",
+    "district": "송파구"
+  },
+  {
+    "name": "CU 제주디오션시티점",
+    "address": "제주특별자치도 제주시 신대로18길 (연동) 아로마관광호텔",
+    "contact": null,
+    "region": "제주특별자치도",
+    "district": "제주시"
+  },
+  {
+    "name": "CU 제주애월해안점",
+    "address": "제주특별자치도 제주시 애월읍 애월해안로 애월해안로956",
+    "contact": null,
+    "region": "제주특별자치도",
+    "district": "제주시"
+  },
+  {
+    "name": "CU 제주조천사거리점",
+    "address": "제주틀별자치도 제주시 조천읍 조천16길 2 1층",
+    "contact": null,
+    "region": "제주틀별자치도",
+    "district": "제주시"
+  },
+  {
+    "name": "CU 조례봉화골드점",
+    "address": "전라남도 순천시 운동1길 11 (조례동)",
+    "contact": null,
+    "region": "전라남도",
+    "district": "순천시"
+  },
+  {
+    "name": "CU 진주초전더샵점",
+    "address": "경상남도 진주시 초전동 초장로 123, 더샵피에르테 아파트, 근린생활시설2동 상가 건물 1층 제 101호",
+    "contact": null,
+    "region": "경상남도",
+    "district": "진주시"
+  },
+  {
+    "name": "CU 창원더시티몰점",
+    "address": "경상남도 창원시 의창구 원이대로 320, (대원동, 더시티세븐자이)",
+    "contact": "0556005333",
+    "region": "경상남도",
+    "district": "창원시"
+  },
+  {
+    "name": "CU 창원성산대영점",
+    "address": "경상남도 창원시 성산구 가양136번길 2(대방동) 1층 1동 101호",
+    "contact": null,
+    "region": "경상남도",
+    "district": "창원시"
+  },
+  {
+    "name": "CU 창원트리비앙점",
+    "address": "경상남도 창원시 성산구 원이대로 제분구상가동 1층 107호,108호",
+    "contact": null,
+    "region": "경상남도",
+    "district": "창원시"
+  },
+  {
+    "name": "CU 천안백석대본부동점",
+    "address": "충청남도 천안시 동남구 백석대학로 본부동 6층 620호(안서동) 6층 620호",
+    "contact": null,
+    "region": "충청남도",
+    "district": "천안시"
+  },
+  {
+    "name": "CU 평택고덕시티점",
+    "address": "경기도 평택시 고덕동 함박산2길 42-1",
+    "contact": null,
+    "region": "경기도",
+    "district": "평택시"
+  },
+  {
+    "name": "CU 평택동문3단지점",
+    "address": "경기도 평택시 칠원동 신촌지구 A-3블록 상가동 102호, 103호",
+    "contact": null,
+    "region": "경기도",
+    "district": "평택시"
+  },
+  {
+    "name": "CU 표선남촌점",
+    "address": "제주특별자치도 서귀포시 표선면 1466-2번지",
+    "contact": null,
+    "region": "제주특별자치도",
+    "district": "서귀포시"
+  },
+  {
+    "name": "CU 한국복지대학교점",
+    "address": "경기도 평택시 삼남로 283, (장안동)",
+    "contact": null,
+    "region": "경기도",
+    "district": "평택시"
+  },
+  {
+    "name": "CU 현대차남양연구소C식",
+    "address": "경기도 화성시 남양읍 활초리 산188번지",
+    "contact": null,
+    "region": "경기도",
+    "district": "화성시"
+  },
+  {
+    "name": "CU 현대차남양연구소디자",
+    "address": "경기도 화성시 남양읍 장덕리 1-3번지 1층",
+    "contact": null,
+    "region": "경기도",
+    "district": "화성시"
+  },
+  {
+    "name": "CU 현대차남양연구소본관",
+    "address": "경기도 화성시 남양읍 장덕리 174-11번지",
+    "contact": null,
+    "region": "경기도",
+    "district": "화성시"
+  },
+  {
+    "name": "CU 현대테라스타워점",
+    "address": "서울특별시 성동구 연무장5가길 314-13 현대테라스타워",
+    "contact": "0222232019",
+    "region": "서울특별시",
+    "district": "성동구"
+  },
+  {
+    "name": "CU 화성마도석교로점",
+    "address": "경기도 화성시 마도면 석교리 213-2번지",
+    "contact": null,
+    "region": "경기도",
+    "district": "화성시"
+  },
+  {
+    "name": "CU 화성문학교차로점",
+    "address": "경기도 화성시 정남면 문학리 461-14번지",
+    "contact": null,
+    "region": "경기도",
+    "district": "화성시"
+  },
+  {
+    "name": "CU 화성삼괴점",
+    "address": "경기도 화성시 우정읍 조암리 186-1번지",
+    "contact": null,
+    "region": "경기도",
+    "district": "화성시"
+  },
+  {
+    "name": "CU 화성왕림점",
+    "address": "경기도 화성시 봉담읍 왕림리 388-3번지",
+    "contact": null,
+    "region": "경기도",
+    "district": "화성시"
+  },
+  {
+    "name": "CU 화성장지IC점",
+    "address": "경기도 화성시 동탄면 경기동로 490",
+    "contact": null,
+    "region": "경기도",
+    "district": "화성시"
+  }
+]
