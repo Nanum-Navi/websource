@@ -6,6 +6,7 @@
 import { readFileSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { OFFICIAL_REGIONS } from '../src/normalize/address.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const projectRoot = resolve(__dirname, '..');
@@ -97,6 +98,17 @@ function validate(filePath: string) {
     for (const field of requiredFields) {
       if (!(field in store) || store[field] === null || store[field] === undefined || store[field] === '') {
         errors.push({ recordId: rid, field, issue: 'missing or empty required field' });
+      }
+    }
+
+    // Region allowlist check
+    if (typeof store.region === 'string' && store.region !== '') {
+      if (!OFFICIAL_REGIONS.includes(store.region as any)) {
+        errors.push({
+          recordId: rid,
+          field: 'region',
+          issue: `non-official region name: "${store.region}"`,
+        });
       }
     }
 

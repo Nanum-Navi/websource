@@ -49,13 +49,11 @@
     },
     "region": {
       "deriveFromAddress": true,
-      "tokenIndex": 0,
-      "description": "주소의 첫 번째 공백 구분 토큰 (시/도)"
+      "description": "normalizeStoreAddress()로 정규화된 현행 17개 공식 시/도명"
     },
     "district": {
       "deriveFromAddress": true,
-      "tokenIndex": 1,
-      "description": "주소의 두 번째 공백 구분 토큰 (시/군/구)"
+      "description": "normalizeStoreAddress()로 추출된 시/군/구 (주소 두 번째 토큰)"
     }
   },
   "deduplication": {
