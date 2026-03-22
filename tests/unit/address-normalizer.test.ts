@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { normalizeRegion, sanitizeAddress } from '../../src/normalize/address.js';
+import { normalizeRegion, sanitizeAddress, normalizeStoreAddress } from '../../src/normalize/address.js';
 
 describe('normalizeRegion', () => {
   it('maps abbreviated names to official names', () => {
@@ -127,5 +127,104 @@ describe('sanitizeAddress', () => {
     expect(
       sanitizeAddress('부산광역시 부산광역시 동래구 충렬대로428번길 7<br>\u200b'),
     ).toBe('부산광역시 동래구 충렬대로428번길 7');
+  });
+});
+
+describe('normalizeStoreAddress', () => {
+  it('returns nulls for empty input', () => {
+    expect(normalizeStoreAddress('')).toEqual({ address: '', region: null, district: null });
+  });
+
+  it('normalizes a standard address with official region', () => {
+    expect(normalizeStoreAddress('서울특별시 강남구 역삼로 123')).toEqual({
+      address: '서울특별시 강남구 역삼로 123',
+      region: '서울특별시',
+      district: '강남구',
+    });
+  });
+
+  it('normalizes abbreviated region in address', () => {
+    expect(normalizeStoreAddress('경남 밀양시 창밀로 3566')).toEqual({
+      address: '경상남도 밀양시 창밀로 3566',
+      region: '경상남도',
+      district: '밀양시',
+    });
+  });
+
+  it('normalizes old region name in address', () => {
+    expect(normalizeStoreAddress('전라북도 전주시 덕진구 조경단로 59')).toEqual({
+      address: '전북특별자치도 전주시 덕진구 조경단로 59',
+      region: '전북특별자치도',
+      district: '전주시',
+    });
+  });
+
+  it('handles address with HTML and unicode issues', () => {
+    expect(
+      normalizeStoreAddress('충청남도 서산시 호수공원8로 3-4<br>(중앙호수공원)'),
+    ).toEqual({
+      address: '충청남도 서산시 호수공원8로 3-4 (중앙호수공원)',
+      region: '충청남도',
+      district: '서산시',
+    });
+  });
+
+  it('handles duplicate region prefix', () => {
+    expect(
+      normalizeStoreAddress('경상북도 경상북도 포항시 남구 효성로 18'),
+    ).toEqual({
+      address: '경상북도 포항시 남구 효성로 18',
+      region: '경상북도',
+      district: '포항시',
+    });
+  });
+
+  it('handles address missing region (starts with district)', () => {
+    expect(normalizeStoreAddress('강남구 역삼로 123')).toEqual({
+      address: '강남구 역삼로 123',
+      region: null,
+      district: null,
+    });
+  });
+
+  it('returns null region for ambiguous 광주시 (could be 광주광역시 or 경기도 광주시)', () => {
+    expect(normalizeStoreAddress('광주시 오포읍 신현리 123')).toEqual({
+      address: '광주시 오포읍 신현리 123',
+      region: null,
+      district: null,
+    });
+  });
+
+  it('handles address starting with road name (total parse failure)', () => {
+    expect(normalizeStoreAddress('첨단중앙로 96, 1층')).toEqual({
+      address: '첨단중앙로 96, 1층',
+      region: null,
+      district: null,
+    });
+  });
+
+  it('handles 경기도 with compound district', () => {
+    expect(normalizeStoreAddress('경기도 성남시 수정구 제일로 145')).toEqual({
+      address: '경기도 성남시 수정구 제일로 145',
+      region: '경기도',
+      district: '성남시',
+    });
+  });
+
+  it('replaces abbreviated region in the address text itself', () => {
+    const result = normalizeStoreAddress('전남 고흥군 도화면 중심길 19-1');
+    expect(result.address).toBe('전라남도 고흥군 도화면 중심길 19-1');
+    expect(result.region).toBe('전라남도');
+    expect(result.district).toBe('고흥군');
+  });
+
+  it('handles parenthetical addresses with region typo', () => {
+    expect(
+      normalizeStoreAddress('제주특별차지도 제주시 첨단로 123'),
+    ).toEqual({
+      address: '제주특별자치도 제주시 첨단로 123',
+      region: '제주특별자치도',
+      district: '제주시',
+    });
   });
 });

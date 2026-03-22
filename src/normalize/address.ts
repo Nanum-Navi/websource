@@ -102,6 +102,35 @@ export function sanitizeAddress(raw: string): string {
   return addr;
 }
 
+export interface NormalizedAddress {
+  address: string;
+  region: OfficialRegion | null;
+  district: string | null;
+}
+
+export function normalizeStoreAddress(raw: string): NormalizedAddress {
+  let addr = sanitizeAddress(raw);
+
+  const tokens = addr.split(' ');
+  if (tokens.length === 0) {
+    return { address: addr, region: null, district: null };
+  }
+
+  const region = normalizeRegion(tokens[0]);
+  if (!region) {
+    return { address: addr, region: null, district: null };
+  }
+
+  if (tokens[0] !== region) {
+    tokens[0] = region;
+    addr = tokens.join(' ');
+  }
+
+  const district = tokens.length >= 2 ? tokens[1] : null;
+
+  return { address: addr, region, district };
+}
+
 function removeDuplicateRegion(addr: string): string {
   const tokens = addr.split(' ');
   if (tokens.length < 2) return addr;
