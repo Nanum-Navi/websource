@@ -80,3 +80,36 @@ export function normalizeRegion(raw: string): OfficialRegion | null {
   const trimmed = raw.trim();
   return REGION_MAP[trimmed] ?? null;
 }
+
+/** Invisible / zero-width unicode characters to strip */
+const INVISIBLE_CHARS = /[\u200b\u200c\u200d\u200e\u200f\ufeff\u2028\u2029\u202f\u2060\u180e\u00ad]/g;
+
+/**
+ * Clean an address string:
+ * 1. Strip HTML tags
+ * 2. Remove invisible unicode characters
+ * 3. Convert NBSP / tabs to regular spaces
+ * 4. Remove duplicate region prefix
+ * 5. Collapse whitespace and trim
+ */
+export function sanitizeAddress(raw: string): string {
+  let addr = raw;
+  addr = addr.replace(/<[^>]+>/g, ' ');
+  addr = addr.replace(INVISIBLE_CHARS, '');
+  addr = addr.replace(/[\u00a0\t]/g, ' ');
+  addr = addr.replace(/\s+/g, ' ').trim();
+  addr = removeDuplicateRegion(addr);
+  return addr;
+}
+
+function removeDuplicateRegion(addr: string): string {
+  const tokens = addr.split(' ');
+  if (tokens.length < 2) return addr;
+  const first = normalizeRegion(tokens[0]);
+  const second = normalizeRegion(tokens[1]);
+  if (first && second && first === second) {
+    const keep = tokens[0].length >= tokens[1].length ? tokens[0] : tokens[1];
+    return [keep, ...tokens.slice(2)].join(' ');
+  }
+  return addr;
+}
